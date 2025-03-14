@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nome": "Matheus",
+      "email": "matheus@email.com",
+      "celular": "999999999",
+      "cpf": "1234",
+      "senha": 123
+    },
+    {
+      "id": "c557",
+      "nome": "teste",
+      "email": "teste@teste.teste",
+      "celular": "teste123",
+      "cpf": "teste",
+      "senha": "teste"
+    }
+  ]
+}
