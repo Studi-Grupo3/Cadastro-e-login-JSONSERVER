@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/Studi - identidade visual - fundo azul - 3 cores.png">
     <title>Studi | Cadastro</title>
 </head>
+
 <body>
 
     <main class="container">
 
         <header>
-            <button>Home</button>
-            <button>Login</button>
+            <a href="https://www.figma.com/design/BBucEB0jsurMWlVjPHZ0UB/Untitled?node-id=1-2&t=hztsMT7qe8bQN9bs-0 "><button id="btn-home">Home</button></a>
+            <a href="login.html"><button id="btn-login">Login</button></a>
         </header>
 
-        <form id="form-cadastro">
-            <input id="ipt_nome" placeholder="Nome completo" type="text">
-            <input id="ipt_email" placeholder="E-mail" type="text">
-            <input id="ipt_celular" placeholder="Celular" type="text">
-            <input id="ipt_cpf" placeholder="CPF" type="text">
-            <input id="ipt_senha" placeholder="Senha" type="password">
-            <input id="ipt_confirmacao_senha" placeholder="Confirmar senha" type="password">
-            
-            <button type="submit">Cadastrar</button>
-        </form>
-        
+        <img src="assets/Studi - identidade visual - fundo azul - 3 cores.png">
+
+        <section class="form-container">
+
+            <form id="form-cadastro">
+
+                <div class="div-inputs">
+
+                    <label>Nome completo:
+                        <input id="ipt_nome" placeholder="Nome completo" type="text">
+                    </label>
+
+                    <label>E-mail:
+                        <input id="ipt_email" placeholder="E-mail" type="text">
+                    </label>
+
+                    <label>Celular:
+                        <input id="ipt_celular" placeholder="Celular" type="text">
+                    </label>
+
+                    <label>CPF:
+                        <input id="ipt_cpf" placeholder="CPF" type="text">
+                    </label>
+
+                    <label class="label-senha">Senha: 
+                        <input id="ipt_senha" placeholder="Senha" type="password">
+                    </label>
+
+                    <label>Confirmação de senha:
+                        <input id="ipt_confirmacao_senha" placeholder="Confirmar senha" type="password">
+                    </label>
+
+                </div>
+
+                <button type="submit">Cadastrar</button>
+
+            </form>
+
+        </section>
 
     </main>
 
-<script src="scriptCadastro.js"></script>
+    <script src="scriptCadastro.js"></script>
 </body>
+
 </html>
